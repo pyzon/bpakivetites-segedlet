@@ -40,6 +40,7 @@ var chart_config = {
                         children: [
                           {
                             text: { name: "ProPresenter" },
+                            HTMLclass: "bg-orange",
                           },
                         ],
                       },
@@ -49,9 +50,11 @@ var chart_config = {
               },
               {
                 text: { name: "Pictures" },
+                HTMLclass: "bg-red",
               },
               {
                 text: { name: "Videos" },
+                HTMLclass: "bg-red",
               },
             ],
           },
