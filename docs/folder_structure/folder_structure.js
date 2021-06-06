@@ -30,7 +30,7 @@ var chart_config = {
                 children: [
                   {
                     text: { name: "Google Drive" },
-                    image: "../images/drive.svg",
+                    image: "../images/drive.png",
                     HTMLclass: "with-icon",
                     children: [
                       {
