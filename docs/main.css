@@ -1,3 +1,6 @@
 :root {
   --theme-color: #5273e7;
 }
+.content {
+  overflow: auto;
+}

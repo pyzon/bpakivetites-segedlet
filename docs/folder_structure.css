@@ -25,11 +25,6 @@ td {
   padding: 0;
 }
 
-body {
-  background: #fff;
-  overflow: hidden;
-}
-
 /* optional Container STYLES */
 .chart-container {
   position: relative;
@@ -37,6 +32,7 @@ body {
   height: 600px;
 }
 .chart {
+  background: #fff;
   height: 600px;
   width: 100%;
   margin: 0 auto;
