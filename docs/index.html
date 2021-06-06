@@ -14,15 +14,43 @@
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
     />
+
+    <link
+      rel="stylesheet"
+      href="./vendor/perfect-scrollbar/perfect-scrollbar.css"
+    />
+    <link rel="stylesheet" href="./vendor/treant/Treant.css" />
+    <link rel="stylesheet" href="./folder_structure/folder_structure.css" />
+    <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
     <div id="app"></div>
+
+    <script src="./vendor/jquery.min.js"></script>
+    <script src="./vendor/jquery.mousewheel.js"></script>
+    <script src="./vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="./vendor/raphael.js"></script>
+    <script src="./vendor/treant/Treant.js"></script>
+
+    <script src="./folder_structure/folder_structure.js"></script>
+
     <script>
       window.$docsify = {
         name: "Kivetítő segédlet",
         repo: "",
         loadSidebar: true,
+        executeScript: true,
       };
+      // (function init() {
+      //   let ps;
+      //   window.onload = function () {
+      //     ps = new PerfectScrollbar("#folder-structure-container");
+      //     new Treant(chart_config);
+      //   };
+      //   window.onresize = function () {
+      //     ps?.update();
+      //   };
+      // })();
     </script>
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
