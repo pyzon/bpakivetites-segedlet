@@ -26,44 +26,54 @@ td {
 }
 
 /* optional Container STYLES */
-.chart-container {
+/* .chart-container {
   position: relative;
   width: 100%;
-  height: 600px;
-}
+  height: 800px;
+} */
 .chart {
   background: #fff;
-  height: 600px;
+  height: 975px;
   width: 100%;
   margin: 0 auto;
-  border: 3px solid #ddd;
+  /* border: 3px solid #ddd; */
   box-sizing: border-box;
+  overflow: hidden;
 }
 .node {
-  color: #fff;
+  display: block;
+  box-sizing: border-box;
   background-color: #4057b2;
   border-radius: 3px;
   padding: 10px 16px;
   height: fit-content;
-  width: min-content; /* breaks on words by default, use nbsp (\u00a0) if necessary */
+  width: fit-content;
+  min-width: min-content;
   text-align: center;
 }
-.node.with-icon {
-  width: fit-content;
+.node.with-icon p {
+  display: inline;
+}
+a.node {
+  text-decoration: underline white 1px;
+}
+a.node:hover {
+  text-decoration-color: var(--theme-color-light, #becbf6);
+}
+a.node:hover p {
+  color: var(--theme-color-light, #becbf6);
 }
 .node p {
+  color: #fff;
   font-size: 16px;
+  font-weight: normal;
   line-height: 20px;
   /* padding: 8px 0; */
   margin: 0;
-  display: inline;
-}
-.node.block p {
-  display: block;
 }
 
 .node img {
-  margin-right: 5px;
+  margin-right: 10px;
   margin-top: -2px;
   margin-bottom: -2px;
   display: inline;
@@ -77,4 +87,10 @@ td {
 }
 .bg-red {
   background-color: #cd3932;
+}
+.bg-blue {
+  background-color: #3a8ac9;
+}
+.bg-teal {
+  background-color: #0fa192;
 }

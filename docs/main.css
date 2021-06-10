@@ -1,6 +1,10 @@
 :root {
   --theme-color: #5273e7;
+  --theme-color-light: #becbf6;
 }
-.content {
-  overflow: auto;
+/* .content {
+  overflow-y: auto;
+} */
+sup {
+  line-height: 1rem;
 }

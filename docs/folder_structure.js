@@ -7,7 +7,7 @@ var chart_config = {
     subTeeSeparation: 60,
     scrollbar: "fancy",
     connectors: {
-      type: "bCurve",
+      type: "curve",
       style: {
         stroke: "#5273e7",
         "stroke-width": 3,
@@ -17,7 +17,7 @@ var chart_config = {
   },
 
   nodeStructure: {
-    text: { name: "C:\u00a0(Windows)" },
+    text: { name: "C: (Windows)" },
     children: [
       {
         text: { name: "Users" },
@@ -32,15 +32,91 @@ var chart_config = {
                     text: { name: "Google Drive" },
                     image: "./images/drive.svg",
                     HTMLclass: "with-icon",
+                    link: {
+                      href:
+                        "#/K%C3%B6nyvt%C3%A1rak?id=cusersbpakidocumentsgoogle-drive",
+                    },
                     children: [
                       {
                         text: { name: "BPApresentation" },
                         image: "./images/folder_shared.svg",
                         HTMLclass: "with-icon",
+                        link: {
+                          href:
+                            "#/K%C3%B6nyvt%C3%A1rak?id=cusersbpakidocumentsgoogle-drivebpapresentation",
+                        },
                         children: [
                           {
                             text: { name: "ProPresenter" },
                             HTMLclass: "bg-orange",
+                            stackChildren: true,
+                            link: {
+                              href:
+                                "#/K%C3%B6nyvt%C3%A1rak?id=bpapresentationpropresenter",
+                            },
+                            children: [
+                              {
+                                text: { line1: "Configuration" },
+                                HTMLclass: "bg-orange",
+                              },
+                              {
+                                text: { line1: "Libraries" },
+                                HTMLclass: "bg-orange",
+                                link: {
+                                  href: "#/K%C3%B6nyvt%C3%A1rak?id=libraries",
+                                },
+                              },
+                              {
+                                text: { line1: "Media" },
+                                HTMLclass: "bg-orange",
+                              },
+                              {
+                                text: { line1: "Playlist" },
+                                HTMLclass: "bg-orange",
+                              },
+                              {
+                                text: { line1: "Presets" },
+                                HTMLclass: "bg-orange",
+                              },
+                              {
+                                text: { line1: "Themes" },
+                                HTMLclass: "bg-orange",
+                                link: {
+                                  href: "#/K%C3%B6nyvt%C3%A1rak?id=themes",
+                                },
+                              },
+                            ],
+                          },
+                          {
+                            text: { line1: "Aktuális", line2: "dokumentumok" },
+                            HTMLclass: "bg-blue",
+                          },
+                        ],
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                text: { line1: "AppData" },
+                children: [
+                  {
+                    text: { line1: "Roaming" },
+                    children: [
+                      {
+                        text: { line1: "RenewedVision" },
+                        HTMLclass: "bg-orange",
+                        children: [
+                          {
+                            text: { line1: "ProPresenter" },
+                            HTMLclass: "bg-orange",
+                            children: [
+                              {
+                                text: { line1: "Preferences" },
+                                image: "./images/folder_shared.svg",
+                                HTMLclass: "bg-orange with-icon",
+                              },
+                            ],
                           },
                         ],
                       },
@@ -50,11 +126,21 @@ var chart_config = {
               },
               {
                 text: { name: "Pictures" },
-                HTMLclass: "bg-red",
+                children: [
+                  {
+                    text: { line1: "Background", line2: "Pictures" },
+                    HTMLclass: "bg-red",
+                  },
+                ],
               },
               {
                 text: { name: "Videos" },
-                HTMLclass: "bg-red",
+                children: [
+                  {
+                    text: { line1: "Background", line2: "Videos" },
+                    HTMLclass: "bg-red",
+                  },
+                ],
               },
             ],
           },
@@ -65,7 +151,7 @@ var chart_config = {
         HTMLclass: "bg-gray",
         children: [
           {
-            text: { name: "Archív dokumentumok" },
+            text: { line1: "Archív", line2: "dokumentumok" },
             HTMLclass: "bg-gray",
           },
         ],
