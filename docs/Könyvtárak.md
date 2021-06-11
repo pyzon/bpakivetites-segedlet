@@ -22,15 +22,15 @@ Alább látható a gépen található, a kivetítés szempontjából lényeges m
     };
 </script>
 
-## C:\Users\bpaki\Documents\Google Drive
+## Google Drive
 
-A BPA Kivetítés teljes Drive-ját a Google Backup and Sync alkalmazással szinkronizáltuk a `C:\Users\bpaki\Documents\Google Drive` mappába. Ez azt jelenti, hogy bármilyen módosítás a felhőben letöltődik és érvényesül a gépen is, és fordítva (persze ehhez szükséges internetkapcsolat).<sup id="fb_dropbox">[\[1\]](#f_dropbox)</sup>
+A BPA Kivetítés teljes Drive-ját a Google Backup and Sync alkalmazással szinkronizáltuk a `C:/Users/bpaki/Documents/Google Drive` mappába. Ez azt jelenti, hogy bármilyen módosítás a felhőben letöltődik és érvényesül a gépen is, és fordítva (persze ehhez szükséges internetkapcsolat).<sup id="fb-dropbox">[\[1\]](#f-dropbox)</sup>
 
-### C:\Users\bpaki\Documents\Google Drive\BPApresentation
+### BPApresentation
 
-A Drive-ban található egy `BPApresentation` mappa, ami az aktuális vetítős anyagokat, valamint a ProPresenter összes dokumentumát tartalmazza.<sup id="fb_drive_folders">[\[2\]](#f_drive_folders)</sup> Ezt megosztottuk a bpa-presentation-team Google csoporttal, így aki ebben benne van, az Google Drive segítségével elérheti és szerkesztheti. Ez kifejezetten hasznos akkor, amikor megkapjuk a kivetítési anyagokat egy eseményhez, fel akarjuk másolni a vetítős gépre, de az nincs nálunk. Ilyenkor ezeket feltölthetjük a Drive-ba, és legközelebb, amikor a vetítős gépet bekapcsoljuk (és van internete), automatikusan letöltődnek.
+A Drive-ban található egy `BPApresentation` mappa, ami az aktuális vetítős anyagokat, valamint a ProPresenter összes dokumentumát tartalmazza.<sup id="fb-drive-folders">[\[2\]](#f-drive-folders)</sup> Ezt megosztottuk a bpa-presentation-team Google csoporttal, így aki ebben benne van, az Google Drive segítségével elérheti és szerkesztheti. Ez kifejezetten hasznos akkor, amikor megkapjuk a kivetítési anyagokat egy eseményhez, fel akarjuk másolni a vetítős gépre, de az nincs nálunk. Ilyenkor ezeket feltölthetjük a Drive-ba, és legközelebb, amikor a vetítős gépet bekapcsoljuk (és van internete), automatikusan letöltődnek.
 
-#### BPApresentation\ProPresenter
+#### ProPresenter
 
 Itt találhatóak a ProPresenter saját fájljai, amik legtöbb beállítást és dokumentumot tartalmazzák, amit a programban beállítottunk, illetve létrehoztunk. Célszerűen ezeket is szinkronizáljuk, hogy könnyű legyen megosztani, és más gépről is pontosan ugyanúgy nézhessen ki a program, mint a vetítős gépen. Sajnos nem minden adat van itt, vannak még a programnak fájljai a személyes [AppData](#TODO) mappában is.
 
@@ -59,12 +59,12 @@ Ezen kívül külsős eseményekhez (Dics-suli, Felház, kisebb alkalmak) érdem
 
 Itt találhatók a témák vagy korábbi nevén sablonok (template). Ha meg akarsz osztani egy témát, vagy kaptál egy témát, amit akarsz használni a programban, akkor itt találod, illetve ide kell bemásolni. Egy téma csoporthoz egy mappa tartozik a téma nevével. A témacsoporton belül a témák külön nem kezelhetőek a fájlrendszerben, csak ProPresenter-ben (ez érthető, hiszen egy témacsoport gyakorlatilag egy diasor és az egyes témák a diák). A megosztás másik módja az [exportálás](#TODO). A témákról bővebben [itt](#TODO).
 
-#### BPApresentation\Aktuális dokumentumok
+#### Aktuális dokumentumok
 
 Itt találhatók az aktuális képek, videók, pptx prezentációk és egyebek. Minden, ami éppen aktuális és nem ProPresenter-es fájl, az itt van és csak itt. A jobb átláthatóság kedvéért létrehozhatsz ezen belül almappát egy-egy alkalomhoz. A ProPresenter-ben beállítottunk egy Smart Playlist-et erre a mappára, tehát minden változtatás a fájlkezelőben rögtön megjelenik a programban is és fordítva (a Smart Playlist-ekről bővebben itt TODO). Azt is megoldottuk, hogy a bpakivetites@gmail.com címre érkező csatolmányok is automatikusan bekerüljenek ide. Fontos, hogy ami biztosan elavult, azt helyezd át az archívumba, hogy itt mindig friss információ legyen.
 
 ---
 
-<sup id="f_dropbox">1</sup> Régen Dropbox-ot használtunk, de annak az ingyenes verziója csak 2 GB tárhelyet tett elérhetővé, míg a Google-nél ez 15 GB. A Backup and Sync működése egyébként teljesen azonos a Dropbox-éval. [Vissza](#fb_dropbox)
+<sup id="f-dropbox">1</sup> Régen Dropbox-ot használtunk, de annak az ingyenes verziója csak 2 GB tárhelyet tett elérhetővé, míg a Google-nél ez 15 GB. A Backup and Sync működése egyébként teljesen azonos a Dropbox-éval. [Vissza](#fb-dropbox)
 
-<sup id="f_drive_folders">2</sup> Igazából a `BPApresentation` mappán kívül nincs semmi a Drive-ban. Azért van ez így, mert a teljes Drive-ot nem lehet megosztani, csak mappákat és fájlokat, és így csak egyetlen mappát kell megosztani. [Vissza](#fb_drive_folders)
+<sup id="f-drive-folders">2</sup> Igazából a `BPApresentation` mappán kívül nincs semmi a Drive-ban. Azért van ez így, mert a teljes Drive-ot nem lehet megosztani, csak mappákat és fájlokat, és így csak egyetlen mappát kell megosztani. [Vissza](#fb-drive-folders)

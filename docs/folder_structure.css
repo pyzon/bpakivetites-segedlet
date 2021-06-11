@@ -58,10 +58,10 @@ a.node {
   text-decoration: underline white 1px;
 }
 a.node:hover {
-  text-decoration-color: var(--theme-color-light, #becbf6);
+  text-decoration-color: #fffa;
 }
 a.node:hover p {
-  color: var(--theme-color-light, #becbf6);
+  color: #fffa;
 }
 .node p {
   color: #fff;

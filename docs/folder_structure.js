@@ -33,8 +33,7 @@ var chart_config = {
                     image: "./images/drive.svg",
                     HTMLclass: "with-icon",
                     link: {
-                      href:
-                        "#/K%C3%B6nyvt%C3%A1rak?id=cusersbpakidocumentsgoogle-drive",
+                      href: "#/K%C3%B6nyvt%C3%A1rak?id=google-drive",
                     },
                     children: [
                       {
@@ -42,8 +41,7 @@ var chart_config = {
                         image: "./images/folder_shared.svg",
                         HTMLclass: "with-icon",
                         link: {
-                          href:
-                            "#/K%C3%B6nyvt%C3%A1rak?id=cusersbpakidocumentsgoogle-drivebpapresentation",
+                          href: "#/K%C3%B6nyvt%C3%A1rak?id=bpapresentation",
                         },
                         children: [
                           {
@@ -51,8 +49,7 @@ var chart_config = {
                             HTMLclass: "bg-orange",
                             stackChildren: true,
                             link: {
-                              href:
-                                "#/K%C3%B6nyvt%C3%A1rak?id=bpapresentationpropresenter",
+                              href: "#/K%C3%B6nyvt%C3%A1rak?id=propresenter",
                             },
                             children: [
                               {
@@ -90,6 +87,10 @@ var chart_config = {
                           {
                             text: { line1: "Aktuális", line2: "dokumentumok" },
                             HTMLclass: "bg-blue",
+                            link: {
+                              href:
+                                "#/K%C3%B6nyvt%C3%A1rak?id=aktu%c3%a1lis-dokumentumok",
+                            },
                           },
                         ],
                       },
