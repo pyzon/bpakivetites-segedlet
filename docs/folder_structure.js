@@ -50,30 +50,30 @@ var chart_config = {
                         },
                         children: [
                           {
-                            text: { line1: "Configuration" },
+                            text: { name: "Configuration" },
                             HTMLclass: "bg-orange",
                           },
                           {
-                            text: { line1: "Libraries" },
+                            text: { name: "Libraries" },
                             HTMLclass: "bg-orange",
                             link: {
                               href: "#/K%C3%B6nyvt%C3%A1rak?id=libraries",
                             },
                           },
                           {
-                            text: { line1: "Media" },
+                            text: { name: "Media" },
                             HTMLclass: "bg-orange",
                           },
                           {
-                            text: { line1: "Playlist" },
+                            text: { name: "Playlist" },
                             HTMLclass: "bg-orange",
                           },
                           {
-                            text: { line1: "Presets" },
+                            text: { name: "Presets" },
                             HTMLclass: "bg-orange",
                           },
                           {
-                            text: { line1: "Themes" },
+                            text: { name: "Themes" },
                             HTMLclass: "bg-orange",
                             link: {
                               href: "#/K%C3%B6nyvt%C3%A1rak?id=themes",
@@ -82,7 +82,7 @@ var chart_config = {
                         ],
                       },
                       {
-                        text: { line1: "Aktuális", line2: "dokumentumok" },
+                        text: { name: "Aktuális", title: "dokumentumok" },
                         HTMLclass: "bg-blue",
                         link: {
                           href:
@@ -94,21 +94,21 @@ var chart_config = {
                 ],
               },
               {
-                text: { line1: "AppData" },
+                text: { name: "AppData" },
                 children: [
                   {
-                    text: { line1: "Roaming" },
+                    text: { name: "Roaming" },
                     children: [
                       {
-                        text: { line1: "RenewedVision" },
+                        text: { name: "RenewedVision" },
                         HTMLclass: "bg-orange",
                         children: [
                           {
-                            text: { line1: "ProPresenter" },
+                            text: { name: "ProPresenter" },
                             HTMLclass: "bg-orange",
                             children: [
                               {
-                                text: { line1: "Preferences" },
+                                text: { name: "Preferences" },
                                 image: "./images/folder_shared.svg",
                                 HTMLclass: "bg-orange with-icon",
                               },
@@ -124,7 +124,7 @@ var chart_config = {
                 text: { name: "Pictures" },
                 children: [
                   {
-                    text: { line1: "Background", line2: "Pictures" },
+                    text: { name: "Background", title: "Pictures" },
                     HTMLclass: "bg-red",
                   },
                 ],
@@ -133,7 +133,7 @@ var chart_config = {
                 text: { name: "Videos" },
                 children: [
                   {
-                    text: { line1: "Background", line2: "Videos" },
+                    text: { name: "Background", title: "Videos" },
                     HTMLclass: "bg-red",
                   },
                 ],
@@ -147,7 +147,7 @@ var chart_config = {
         HTMLclass: "bg-gray",
         children: [
           {
-            text: { line1: "Archív", line2: "dokumentumok" },
+            text: { name: "Archív", title: "dokumentumok" },
             HTMLclass: "bg-gray",
           },
         ],
