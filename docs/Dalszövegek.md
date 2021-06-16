@@ -5,7 +5,9 @@
 ## Dalcím (fájlnév)
 
 A dalok címe az, ami a listában megjelenik, és kereséskor először a szemünk elé tárul, ezért nagyon fontos, hogy olyan címet adjunk neki, ami alapján könnyen beazonosítható. Ez gyakorlatilag magának a .pro fájlnak a neve, ami a dalszöveget tartalmazza. Ez a név lehetőleg a dal címe legyen, vagy egy sor, amiként a leggyakrabban szoktunk rá hivatkozni. Ha ebből még nem egyértelmű, melyik dalról van szó (mert több ilyen dal is van, vagy ugyanannak a dalnak több fordítása), tovább írhatjuk a sort, amíg egyértelmű nem lesz, vagy zárójelben hozzáírhatunk még egy sort, amivel a refrén vagy az első verse kezdődik. Például: „Hiszem (Véred megnyitja szemem)”, és „Hiszem (Istenünk örökkévaló)”.
+
 Ha a dalszövegben, amit a dal nevébe írnánk, ismételt szavak vannak, akkor az ismétlések elhagyhatók, elég egyszer leírni a szót. Például: „Halleluja, halleluja, halleluja, szent az Úr” → „Halleluja, szent az Úr”.
+
 A dal nevében az írásjelek közül csak a kötőjeleket és a vesszőket írjuk ki. Minden más írásjelet, speciális karaktert technikai okokból mellőzzünk. A dal nevét nagybetűvel kezdjük, továbbá nagybetűvel írjuk azokat a szavakat is, amit a dalszövegben is nagybetűvel írnánk (lásd [Nagybetűk](#TODO) rész).
 
 ## Helyesírás
