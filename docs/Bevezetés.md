@@ -9,3 +9,5 @@ Ha még nem olvastad az útmutatót, akkor erősen ajánlom, hogy olvasd el, hog
 A menü tetején van egy kereső (TODO), amivel az egész útmutatóban tudunk keresni. Ez szintén hasznos a váratlanul felmerülő problémák esetén.
 
 Az útmutató utoljára ekkor volt szerkesztve: {docsify-updated}.
+
+TODO: Google Analytics
