@@ -1,6 +1,6 @@
 # Fiókok
 
-Az átláthatóság és hatékony kezelhetőség kedvéért létrehoztuk az alábbi fiókokat. Ha bármelyikhez kell hozzáférés, tőlem tessék elkérni [Messenger](https://www.facebook.com/kallo.kristof)-en vagy [email](mailto:kristof.kallo@gmail.com)-en.
+Az átláthatóság és hatékony kezelhetőség kedvéért létrehoztuk az alábbi fiókokat. Ha bármelyikhez kell hozzáférés, tőlem tessék elkérni [Messenger](https://www.facebook.com/kallo.kristof)-en vagy email-en (kristof PONT kallo KUKUC gmail PONT com).
 
 | Platform     | Név                                    | Leírás                                                                                                                                                       |
 | ------------ | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
