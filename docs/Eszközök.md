@@ -42,10 +42,12 @@ Ez a gyülekezet videóvágó pultja. Ide fut be a négy kimenetünk közül há
 
 | Csatorna                  | ATEM csatlakozó |
 | ------------------------- | --------------- |
-| Projektor (terem) bemenet | SDI IN 7        |
-| Broadcast (fill)          | SDI IN 1        |
-| Broadcast (key)           | SDI IN 8        |
-| Projektor (terem) kimenet | SDI OUT 1       |
+| Projektor (terem) bemenet | SDI INPUT 7     |
+| Broadcast (fill)          | SDI INPUT 1     |
+| Broadcast (key)           | SDI INPUT 8     |
+| Projektor (terem) kimenet | SDI AUX 1       |
+
+![ATEM back](images/atem_back_s.png)
 
 #### Broadcast fill és key
 
@@ -57,19 +59,23 @@ A broadcast kimenet felkonfigurálásához először nevezzük el a programban a
 
 Ne felejtsük el az Input-ot sem megadni attól függően, hogy HDMI-n vagy SDI-n jön be a jel.
 
+##### Key
+
 Ezután a _Switcher_ ablakban a jobb oldali panelen a Palettes fülön válasszük ki az _Upstream Key 1_ elemet, és azon belül a _Luma_ fület. Állítsuk be a _Fill Source_-t és a _Key Source_-t, majd ha nem lenne bejelölve, jelöljük be a _Pre Multiplied Key_ kapcsolót.
 
 ![Switcher key](images/switcher_key.png)
 
-Végül továbbra is a _Switcher_ ablakban a _Next Transition_ szekcióban be kell kapcsolni az első _ON AIR_ kapcsolót.
+##### On Air
+
+Végül továbbra is a _Switcher_ ablakban a _Next Transition_ szekcióban be kell kapcsolni az első _ON AIR_ kapcsolót. (Azért az elsőt, mert az tartozik az Upstream Key 1-hez.)
 
 ![Switcher Next Transition](images/switcher_next_transition.png)
 
 #### Projektor kimenet
 
-A pult panelén a jobb oldalon lévő három gombbal választjuk ki, hogy melyik kimenetet szeretnénk állítani, és a bal oldalon, hogy erre a kimenetre mit küldjünk. Tegyük fel, hogy a hármas SDI kimeneten küldjük el a projektorhoz a képet, a vetítős gépből pedig a hatos bemeneten érkezik a projektorra küldött kép. Válasszuk ki a **3**-as kimenetet, és utána ha a ProPresenter képét szeretnénk a projektorra küldeni, akkor a **6**-os bemenetet, ha pedig a vágott kameraképet, akkor a **PGM** (program) gombot nyomjuk meg.
+A pult panelén a jobb oldalon lévő három gombbal választjuk ki, hogy melyik AUX kimenetet szeretnénk állítani, és a bal oldalon, hogy erre a kimenetre mit küldjünk. A fenti táblázatnak megfelelően az egyes SDI kimeneten küldjük el a projektorhoz a képet, a vetítős gépből pedig a hetes bemeneten érkezik a projektorra küldött kép. Válasszuk ki az **1**-es kimenetet, és utána ha a ProPresenter képét szeretnénk a projektorra küldeni, akkor a **7**-es bemenetet, ha pedig a vágott kameraképet, akkor a **PGM** (program) gombot nyomjuk meg.
 
-![ATEM panel](images/atem_panel.png)
+![ATEM panel](images/atem_panel_s.png)
 
 ### Átalakítók, kábelek, transzmitterek
 

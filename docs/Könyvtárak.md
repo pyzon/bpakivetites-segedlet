@@ -24,7 +24,7 @@ Alább látható a gépen található, a kivetítés szempontjából lényeges m
 
 ## Google Drive
 
-A BPA Kivetítés teljes Drive-ját a Google Backup and Sync alkalmazással szinkronizáltuk a `C:/Users/bpaki/Documents/Google Drive` mappába. Ez azt jelenti, hogy bármilyen módosítás a felhőben letöltődik és érvényesül a gépen is, és fordítva (persze ehhez szükséges internetkapcsolat).<sup id="fb-dropbox">[\[1\]](#f-dropbox)</sup>
+A BPA Kivetítés teljes Drive-ját a Google Backup and Sync alkalmazással szinkronizáltuk a `C:/Users/bpaki/Google Drive` mappába. Ez azt jelenti, hogy bármilyen módosítás a felhőben letöltődik és érvényesül a gépen is, és fordítva (persze ehhez szükséges internetkapcsolat).<sup id="fb-dropbox">[\[1\]](#f-dropbox)</sup>
 
 ### BPApresentation
 

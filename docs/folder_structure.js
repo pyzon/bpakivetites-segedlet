@@ -26,73 +26,68 @@ var chart_config = {
             text: { name: "bpaki" },
             children: [
               {
-                text: { name: "Documents" },
+                text: { name: "Google Drive" },
+                image: "./images/drive.svg",
+                HTMLclass: "with-icon",
+                link: {
+                  href: "#/K%C3%B6nyvt%C3%A1rak?id=google-drive",
+                },
                 children: [
                   {
-                    text: { name: "Google Drive" },
-                    image: "./images/drive.svg",
+                    text: { name: "BPApresentation" },
+                    image: "./images/folder_shared.svg",
                     HTMLclass: "with-icon",
                     link: {
-                      href: "#/K%C3%B6nyvt%C3%A1rak?id=google-drive",
+                      href: "#/K%C3%B6nyvt%C3%A1rak?id=bpapresentation",
                     },
                     children: [
                       {
-                        text: { name: "BPApresentation" },
-                        image: "./images/folder_shared.svg",
-                        HTMLclass: "with-icon",
+                        text: { name: "ProPresenter" },
+                        HTMLclass: "bg-orange",
+                        stackChildren: true,
                         link: {
-                          href: "#/K%C3%B6nyvt%C3%A1rak?id=bpapresentation",
+                          href: "#/K%C3%B6nyvt%C3%A1rak?id=propresenter",
                         },
                         children: [
                           {
-                            text: { name: "ProPresenter" },
+                            text: { line1: "Configuration" },
                             HTMLclass: "bg-orange",
-                            stackChildren: true,
-                            link: {
-                              href: "#/K%C3%B6nyvt%C3%A1rak?id=propresenter",
-                            },
-                            children: [
-                              {
-                                text: { line1: "Configuration" },
-                                HTMLclass: "bg-orange",
-                              },
-                              {
-                                text: { line1: "Libraries" },
-                                HTMLclass: "bg-orange",
-                                link: {
-                                  href: "#/K%C3%B6nyvt%C3%A1rak?id=libraries",
-                                },
-                              },
-                              {
-                                text: { line1: "Media" },
-                                HTMLclass: "bg-orange",
-                              },
-                              {
-                                text: { line1: "Playlist" },
-                                HTMLclass: "bg-orange",
-                              },
-                              {
-                                text: { line1: "Presets" },
-                                HTMLclass: "bg-orange",
-                              },
-                              {
-                                text: { line1: "Themes" },
-                                HTMLclass: "bg-orange",
-                                link: {
-                                  href: "#/K%C3%B6nyvt%C3%A1rak?id=themes",
-                                },
-                              },
-                            ],
                           },
                           {
-                            text: { line1: "Aktuális", line2: "dokumentumok" },
-                            HTMLclass: "bg-blue",
+                            text: { line1: "Libraries" },
+                            HTMLclass: "bg-orange",
                             link: {
-                              href:
-                                "#/K%C3%B6nyvt%C3%A1rak?id=aktu%c3%a1lis-dokumentumok",
+                              href: "#/K%C3%B6nyvt%C3%A1rak?id=libraries",
+                            },
+                          },
+                          {
+                            text: { line1: "Media" },
+                            HTMLclass: "bg-orange",
+                          },
+                          {
+                            text: { line1: "Playlist" },
+                            HTMLclass: "bg-orange",
+                          },
+                          {
+                            text: { line1: "Presets" },
+                            HTMLclass: "bg-orange",
+                          },
+                          {
+                            text: { line1: "Themes" },
+                            HTMLclass: "bg-orange",
+                            link: {
+                              href: "#/K%C3%B6nyvt%C3%A1rak?id=themes",
                             },
                           },
                         ],
+                      },
+                      {
+                        text: { line1: "Aktuális", line2: "dokumentumok" },
+                        HTMLclass: "bg-blue",
+                        link: {
+                          href:
+                            "#/K%C3%B6nyvt%C3%A1rak?id=aktu%c3%a1lis-dokumentumok",
+                        },
                       },
                     ],
                   },
