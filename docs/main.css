@@ -9,32 +9,42 @@ sup {
   line-height: 1rem;
 }
 
-.group {
+.highlight {
   border-radius: 3px;
   padding: 1px 3px;
+  font-weight: bold;
 }
 
-.group-intro {
+.highlight-intro {
   background-color: #7bdb45;
 }
-.group-verse {
+.highlight-verse {
   background-color: #768bf1;
 }
-.group-pre-chorus {
+.highlight-pre-chorus {
   background-color: #ebaf36;
 }
-.group-chorus {
+.highlight-chorus {
   background-color: #f07059;
 }
-.group-bridge {
+.highlight-bridge {
   background-color: #b568ec;
 }
-.group-post-chorus {
+.highlight-post-chorus {
   background-color: #ec4167;
 }
-.group-interlude {
+.highlight-interlude {
   background-color: #58c7e5;
 }
-.group-coda {
+.highlight-coda {
   background-color: #ddcb24;
+}
+.highlight-version {
+  background-color: #81e8dc;
+}
+.highlight-repeat {
+  background-color: #f1d974;
+}
+.highlight-next-song {
+  background-color: #f17d7d;
 }
