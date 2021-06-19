@@ -12,7 +12,7 @@ A dal nevében az írásjelek közül csak a kötőjeleket és a vesszőket írj
 
 ## Helyesírás
 
-A dalszövegeket a magyar nyelv helyesírási szabályainak megfelelően írjuk le. Ehhez akkor is ragaszkodunk, ha a kottában, ahonnan másoljuk, másképp (hibásan) van. Kivételt képeznek a költői szabadságból, szándékosan helytelenül írt szavak (aminek az oka lehet például az, hogy a prozódia, vagy a rím kijöjjön). A helyesíráshoz természetesen az írásjelek helyesírása is hozzátartozik, ezt lásd az [Írásjelek](#TODO) részben.
+A dalszövegeket a magyar nyelv helyesírási szabályainak megfelelően írjuk le. Ehhez akkor is ragaszkodunk, ha a kottában, ahonnan másoljuk, másképp (hibásan) van. Kivételt képeznek a költői szabadságból, szándékosan helytelenül írt szavak (aminek az oka lehet például az, hogy a prozódia, vagy a rím kijöjjön). A helyesíráshoz természetesen az írásjelek helyesírása is hozzátartozik, ezt lásd az [Írásjelek](#írásjelek) részben.
 
 ## Tagolás
 
@@ -38,3 +38,36 @@ Isten neveit és személyes névmásait nagy betűvel kezdjük. A teljesség ig�
 > Az övéiért.
 
 Alapesetben egy dián mindkét sort nagy betűvel kezdjük, kivéve, ha a két sor zeneileg egy egységbe tartozik, vagy ha a sortörésnél az előző tagmondatot folytatjuk (például, ha egy hosszú sor végét a következő sor elejére tördeltük, lásd a [Tagolás](#tagolás) részben), ilyenkor elég az elsőt.
+
+## Írásjelek
+
+Az írásjelek tekintetében is a magyar helyesírás szabályai szerint járunk el, illetve törekedünk rá, hogy az eredeti szöveg írásjeleit megtartsuk. Ez alól kivételt képeznek az alábbiak. A mondatzáró pontokat konvenció szerint sehol nem írjuk ki. Vesszőket a sor közepén mindig kiírjuk. A sor végén, amikor a vessző biztosan két tagmondatot választana el, kiírjuk, ha viszont akár két külön mondat is lehetne, akkor nem. Bizonytalan esetben ki lehet írni, de nem kötelező. A felkiáltó jeleket többnyire kitesszük, de nem visszük túlzásba (jellemzően ujjongást, kiáltást kifejező dalokban lehetne ez indokolt, de nem mutat jól, ha minden sor végén van felkiáltójel). A hármasponttal hasonló a helyzet, ezt sem visszük túlzásba. A többi írásjelet (zárójel, kötőjel, gondolatjel, idézőjel, kettőspont, pontosvessző, kérdőjel, aposztróf) minden esetben kiírjuk.
+
+Előfordulnak kötőszavak, névelők, amelyeket nem mindig éneklünk ki, ezeket zárójelbe tehetjük, például: _„(Hogy) az imádód lehessek”_. Megjegyzendő az is, hogy amikor a sor elején van a zárójeles szó, akkor az lesz nagybetűs, és az utána következő már nem. Zárójelet használhatunk továbbá akkor is, amikor a vezetőének után a kórus megismétli a sort, például: _„Az Úr van itt, (az Úr van itt)”_.
+
+Azoknál a szavaknál, amelyekből elhagyunk betűket, az elhagyás helyét aposztróffal (más szóval hiányjellel) jelöljük, például: _„Megtehette volna, hogy ott hagy lenn a porba’”_. Sok esetben viszont, ahol eredetileg indokolt lett volna az aposztróf használata, a rövid alak már állandósult a magyar nyelvben, ezért nem kell kitenni az aposztrófot. Ilyenek a vonatkozó névmások, amelyek elejéről elhagyjuk az _a_-t, például _ki_, _mi_, _hol_ stb.; az _olyan_, _ilyen_, és _milyen_ szavakból képzett _oly_, _ily_ és _mily_ szavak; az _s_ kötőszó; a _hiszen_-ből képzett _hisz_ és a _majdnem_-ből képzett _majd_ szavak.
+
+Néhány speciális írásjelnél figyelni kell arra, hogy a pontos karaktert írjuk le, ne rá hasonlító, de helytelen változatait. Ezek nem szerepelnek a billentyűzeten, ezért Alt-kóddal kell beírni őket, ehhez a bal Alt-ot nyomva tartva kell egy számsorozatot beírni a számpadon (számpad nélküli billentyűzeten az Fn-t is nyomva kell tartani, és a betűk között kell megkeresni a számpadot). Ha ezt nem tesszük meg, nem tragédia, de a felirat minősége sokkal jobb lesz, ha igen.
+
+| Írásjel     | Helytelen karakterek    | Helyes karakterek                                                                   | Alt kód               |
+| ----------- | ----------------------- | ----------------------------------------------------------------------------------- | --------------------- |
+| Hármaspont  | Három pont              | Hármaspont (…)                                                                      | Alt+0133              |
+| Idézőjel    | Bármilyen más idézőjel  | Idézet elején alsó 9-es állású dupla idézőjel („),<br/>a végén ugyanilyen felső (”) | Alt+0132<br/>Alt+0148 |
+| Gondolatjel | Kötőjel, Em-dash        | En-dash (–)                                                                         | Alt+0150              |
+| Aposztróf   | Bármilyen más aposztróf | Felső 9-es állású szimpla aposztróf (’)                                             | Alt+0146              |
+
+## Whitespace karakterek
+
+Fontos, hogy az első sor előtt és az utolsó sor után ne legyen extra soremelés karakter, valamint a sorok elején és végén ne legyenek extra szóközök (sem tabok és egyéb whitespace). A szavak között csak egyetlen szóköz legyen, a sorok között pedig csak egyetlen soremelés. Új dal beírásánál, főleg, ha meglévő szövegből másoljuk, becsúszhatnak ilyen fölösleges karakterek, ezekre figyeljünk, töröljük ki, különben a kivetített szöveg eltolódik, ami zavaró.
+
+## Szerkezeti egységek
+
+A dalok szerkezete leggyakrabban az alábbi szerkezeti egységeket tartalmazza: <span class="group group-intro">Intro</span>, <span class="group group-verse">Verse</span>, <span class="group group-pre-chorus">Pre-Chorus</span>, <span class="group group-chorus">Chorus</span>, <span class="group group-bridge">Bridge</span>, <span class="group group-coda">Coda</span>, <span class="group group-interlude">Interlude</span>, és <span class="group group-post-chorus">Post-Chorus</span>. Ritkább esetben előfordulhatnak továbbiak is, Vamp az Intro helyett, Ending/Outro a Coda helyett, Instrumental/Solo az Interlude helyett, valamint Turnaround a Post-Chorus helyett. Bár ezeket is lehet használni, alapvetően a fent felsoroltak a preferáltak.
+
+Azokat a részeket, amelyekből jellemzően több van, 1-től kezdve számozhatjuk, például Verse 1, Verse 2 stb. Számozni a következőket lehet: Verse, Pre-Chorus, Chorus és Bridge, a többiből mindig legfeljebb egy van egy dalban.
+
+A szerkezeti egységeket ProPresenter-ben group-oknak hívják. Az átláthatóság kedvéért színkódoltam őket azokkal a színekkel, amelyekkel itt is színezve vannak. A group-okról bővebben [itt](#TODO).
+
+A ProPresenter-ben gyorsbillentyűket is rendeltem az egyes szerkezeti egységekhez. A gyorsbillentyűk használatáról, és beállításáról bővebben [itt](#TODO).
+
+A szerkezeti egységekből össze lehet rakni tetszőleges szerkezetet, ahol mi választjuk meg, hogy melyik egységből mennyit és milyen sorrendben rakunk egymás után. Erről bővebben a [Szerkezet](#TODO) részben lehet olvasni.

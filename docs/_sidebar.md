@@ -3,5 +3,5 @@
   - [Fiókok](Fiókok.md)
   - [Könyvtárak](Könyvtárak.md)
   - [Dalszövegek formátuma](Dalszövegek.md)
-- [A ProPresenter használata](ProPresenter/ProPresenter.md)
-  - [Felhasználói felület](ProPresenter/UI.md)
+- [A ProPresenter használata](ProPresenter.md)
+  - [Felhasználói felület](PP_UI.md)

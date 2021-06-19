@@ -8,3 +8,33 @@
 sup {
   line-height: 1rem;
 }
+
+.group {
+  border-radius: 3px;
+  padding: 1px 3px;
+}
+
+.group-intro {
+  background-color: #7bdb45;
+}
+.group-verse {
+  background-color: #768bf1;
+}
+.group-pre-chorus {
+  background-color: #ebaf36;
+}
+.group-chorus {
+  background-color: #f07059;
+}
+.group-bridge {
+  background-color: #b568ec;
+}
+.group-post-chorus {
+  background-color: #ec4167;
+}
+.group-interlude {
+  background-color: #58c7e5;
+}
+.group-coda {
+  background-color: #ddcb24;
+}

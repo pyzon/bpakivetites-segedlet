@@ -6,8 +6,6 @@ A bal oldali menüben (a bal alsó menü gombbal lehet megnyitni, ha nem lenne n
 
 Ha még nem olvastad az útmutatót, akkor erősen ajánlom, hogy olvasd el, hogy képben legyél a fontosabb dolgokkal. Az útmutató végén található egy gyakori kérdések fejezet, ahol összegyűjtöttem az évek során leggyakrabban felmerülő problémákat, kérdéseket. Ha egy helyzetben nem tudod, mit kell tenni, itt nagy valószínűséggel válaszra találsz.
 
-A menü tetején van egy kereső (TODO), amivel az egész útmutatóban tudunk keresni. Ez szintén hasznos a váratlanul felmerülő problémák esetén.
+A menü tetején van egy kereső, amivel az egész útmutatóban tudunk keresni. Ez szintén hasznos a váratlanul felmerülő problémák esetén.
 
 Az útmutató utoljára ekkor volt szerkesztve: {docsify-updated}.
-
-TODO: Google Analytics
