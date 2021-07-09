@@ -1,6 +1,12 @@
 :root {
   /* --theme-color: #5273e7; */
   --theme-color-light: #becbf6;
+  --ui-y1: 4%;
+  --ui-y2: 5.8%;
+  --ui-y3: 62.3%;
+  --ui-y4: 52.4%;
+  --ui-x1: 16.7%;
+  --ui-x2: 63.7%;
 }
 /* .content {
   overflow-y: auto;
@@ -47,4 +53,65 @@ sup {
 }
 .highlight-next-song {
   background-color: #f17d7d;
+}
+
+.ui-overlay {
+  position: relative;
+  line-height: 0;
+}
+.ui {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(248, 173, 59, 0.933);
+  background-color: rgba(248, 173, 59, 0.2);
+  display: block;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+.ui:focus,
+.ui:hover {
+  opacity: 1;
+}
+.ui-menu {
+  width: 100%;
+  height: var(--ui-y1);
+  top: 0;
+  left: 0;
+}
+.ui-toolbar {
+  width: 100%;
+  height: var(--ui-y2);
+  top: var(--ui-y1);
+  left: 0;
+}
+.ui-library {
+  width: var(--ui-x1);
+  height: var(--ui-y3);
+  top: calc(var(--ui-y1) + var(--ui-y2));
+  left: 0;
+}
+.ui-show {
+  width: var(--ui-x2);
+  height: var(--ui-y3);
+  top: calc(var(--ui-y1) + var(--ui-y2));
+  left: 16.7%;
+}
+.ui-media {
+  width: calc(var(--ui-x1) + var(--ui-x2));
+  height: calc(100% - (var(--ui-y1) + var(--ui-y2) + var(--ui-y3)));
+  top: calc(var(--ui-y1) + var(--ui-y2) + var(--ui-y3));
+  left: 0;
+}
+.ui-output {
+  width: calc(100% - (var(--ui-x1) + var(--ui-x2)));
+  height: var(--ui-y4);
+  top: calc(var(--ui-y1) + var(--ui-y2));
+  left: calc(var(--ui-x1) + var(--ui-x2));
+}
+.ui-show-control {
+  width: calc(100% - (var(--ui-x1) + var(--ui-x2)));
+  height: calc(100% - (var(--ui-y1) + var(--ui-y2) + var(--ui-y4)));
+  top: calc(var(--ui-y1) + var(--ui-y2) + var(--ui-y4));
+  left: calc(var(--ui-x1) + var(--ui-x2));
 }

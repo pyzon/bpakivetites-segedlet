@@ -30,7 +30,7 @@ var chart_config = {
                 image: "./images/drive.svg",
                 HTMLclass: "with-icon",
                 link: {
-                  href: "#/K%C3%B6nyvt%C3%A1rak?id=google-drive",
+                  href: "#/Könyvtárak?id=google-drive",
                 },
                 children: [
                   {
@@ -38,7 +38,7 @@ var chart_config = {
                     image: "./images/folder_shared.svg",
                     HTMLclass: "with-icon",
                     link: {
-                      href: "#/K%C3%B6nyvt%C3%A1rak?id=bpapresentation",
+                      href: "#/Könyvtárak?id=bpapresentation",
                     },
                     children: [
                       {
@@ -46,7 +46,7 @@ var chart_config = {
                         HTMLclass: "bg-orange",
                         stackChildren: true,
                         link: {
-                          href: "#/K%C3%B6nyvt%C3%A1rak?id=propresenter",
+                          href: "#/Könyvtárak?id=propresenter",
                         },
                         children: [
                           {
@@ -57,7 +57,7 @@ var chart_config = {
                             text: { name: "Libraries" },
                             HTMLclass: "bg-orange",
                             link: {
-                              href: "#/K%C3%B6nyvt%C3%A1rak?id=libraries",
+                              href: "#/Könyvtárak?id=libraries",
                             },
                           },
                           {
@@ -76,7 +76,7 @@ var chart_config = {
                             text: { name: "Themes" },
                             HTMLclass: "bg-orange",
                             link: {
-                              href: "#/K%C3%B6nyvt%C3%A1rak?id=themes",
+                              href: "#/Könyvtárak?id=themes",
                             },
                           },
                         ],
@@ -85,8 +85,7 @@ var chart_config = {
                         text: { name: "Aktuális", title: "dokumentumok" },
                         HTMLclass: "bg-blue",
                         link: {
-                          href:
-                            "#/K%C3%B6nyvt%C3%A1rak?id=aktu%c3%a1lis-dokumentumok",
+                          href: "#/Könyvtárak?id=aktuális-dokumentumok",
                         },
                       },
                     ],
@@ -111,6 +110,9 @@ var chart_config = {
                                 text: { name: "Preferences" },
                                 image: "./images/folder_shared.svg",
                                 HTMLclass: "bg-orange with-icon",
+                                link: {
+                                  href: "#/Könyvtárak?id=preferences",
+                                },
                               },
                             ],
                           },
@@ -126,6 +128,9 @@ var chart_config = {
                   {
                     text: { name: "Background", title: "Pictures" },
                     HTMLclass: "bg-red",
+                    link: {
+                      href: "#/Könyvtárak?id=background-pictures-és-videos",
+                    },
                   },
                 ],
               },
@@ -135,6 +140,9 @@ var chart_config = {
                   {
                     text: { name: "Background", title: "Videos" },
                     HTMLclass: "bg-red",
+                    link: {
+                      href: "#/Könyvtárak?id=background-pictures-és-videos",
+                    },
                   },
                 ],
               },
@@ -145,10 +153,16 @@ var chart_config = {
       {
         text: { name: "Archívum" },
         HTMLclass: "bg-gray",
+        link: {
+          href: "#/Könyvtárak?id=archívum",
+        },
         children: [
           {
             text: { name: "Archív", title: "dokumentumok" },
             HTMLclass: "bg-gray",
+            link: {
+              href: "#/Könyvtárak?id=archív-dokumentumok",
+            },
           },
         ],
       },
